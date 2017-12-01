@@ -27,7 +27,7 @@ const element = (
 ```
 会显示为：
 
-![enter image description here](http://ww1.sinaimg.cn/large/006IdFQUgy1fm1dtgxk3fj30ey07mmxe.jpg)
+![enter image description here](https://github.com/fm20115412/Blog/blob/master/image/1.png)
 
 5、react会调用React.createElement()函数将jsx语法转换为JavaScript 对象。
 ```javascript
