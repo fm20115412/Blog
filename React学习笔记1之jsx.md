@@ -15,7 +15,7 @@ const element = (
 ```javascript
 const element = <div tabIndex="0"></div>;
 ```
-4、jsx可以防止xss攻击，这是因为react会将用户的输入转义为字符串
+4、jsx可以防止xss攻击，这是因为react会将用户的输入转义为字符串
 ```javascript
 const element = (
   <div>
@@ -25,7 +25,7 @@ const element = (
   
 );
 ```
-会显示为：
+会显示为：
 
 ![enter image description here](http://ww1.sinaimg.cn/large/006IdFQUgy1fm1dtgxk3fj30ey07mmxe.jpg)
 
@@ -53,4 +53,5 @@ const element = {
 有了这个表示 HTML 结构和信息的对象以后，就可以拿去构造真正的 DOM 元素，然后把这个 DOM 元素塞到页面上。
 
 ![enter image description here](https://huzidaha.github.io/static/assets/img/posts/44B5EC06-EAEB-4BA2-B3DC-325703E4BA45.png)
-6、true/false/undefined/null 等在react里渲染不出来
+
+6、true/false/undefined/null 等在react里渲染不出来
